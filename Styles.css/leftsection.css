@@ -1,0 +1,17 @@
+.left-section{
+  top: 305px;
+  bottom: 0;
+  /* background-color: gray; */
+  color:gray;
+  position: absolute;
+  width: 286px;
+  border-right-color: rgb(223, 223, 223);
+  border-right-width: 1px;
+  border-right-style: solid;
+  font-family: 'Roboto';
+  padding-top: 20px;
+  margin-left: 20px;
+}
+.check{
+  margin-top: 20px;
+}

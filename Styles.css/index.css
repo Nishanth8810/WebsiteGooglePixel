@@ -1,0 +1,145 @@
+/* Nav-Bar' */
+.hed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:white;
+  color: white;
+  z-index: 3;
+
+
+}
+.nav{
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 20px;
+  align-items: center;
+  margin-top: 0px;
+  
+}
+/*  nav-bar rightsection */
+.right-section{
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+.google-icon{
+  width: 40px;
+  height: 40px;
+  border:none;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.pic-google{
+  width: 29px;
+}
+.user-image{
+  width: 40px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.search-button{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.but-search{
+  width: 22px;
+}
+.cart-button{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  
+}
+.question{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.user-image{
+  width: 35px;
+}
+
+/* rightsection */
+.main-title{
+  display: inline-block;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  color: rgb(46, 46, 46);
+  font-size: 64px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 70px;
+  font-weight:bolder;
+}
+.title2{
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  color: #188038;
+  font-size: 60px;
+  letter-spacing: -2px;
+  line-height: 68px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 90px;
+}
+.bottom-credits{
+  display: flex;
+  height: 282px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  justify-content: end;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(116, 113, 113);
+  font-size:medium;
+}
+.bottom-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:35px ;
+    cursor: pointer;
+}
+
+
+.bottom-contents2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:180px ;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color:rgb(97, 97, 97);
+    padding-left: 4rem;
+    gap: 4rem;
+    
+}
+.footer-img{
+  width: 25px;  
+  cursor: pointer;
+}
+.india-img{
+  width: 35px;
+}
+.footers{
+   display: flex;
+   margin-right: 50px; 
+   justify-content:space-between;
+   flex-direction: row;
+   gap: 2rem;
+   font-size: smaller;
+   cursor: pointer;
+}
